@@ -18,7 +18,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import logging
 from fastapi import FastAPI, HTTPException, Request
 load_dotenv()
-os.environ['API_KEY'] = "AIzaSyA5tXsm9Sr3fEuC-LPl-8rhWjRAej0vuDI"
+os.environ['API_KEY'] = ""
 genai.configure(api_key=os.environ["API_KEY"])
 
 
